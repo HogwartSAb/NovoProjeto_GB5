@@ -22,7 +22,7 @@ namespace principal
                 {
                     Console.Clear();
                     Console.WriteLine("--------------------------------------------------------------");
-                    Console.WriteLine(" 1. Adicionar Quadrado");
+                    Console.WriteLine(" 1. Adicionar  Quadrado");
                     Console.WriteLine(" 2. Adicionar Triângulo");
                     Console.WriteLine(" 3. Adicionar Círculo");
                     Console.WriteLine(" 4. Mostrar o Nome, a Cor e a Área de uma determinada figura");
