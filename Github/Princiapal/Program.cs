@@ -15,7 +15,7 @@ namespace principal
                 Circulo C = null;
                 Quadrado Q = null;
                 Triangulo T = null;
-                List<figura> formasgeo = new List<figura>();
+                List<Figura> formasgeo = new List<Figura>();
                 int op;
 
                 do
