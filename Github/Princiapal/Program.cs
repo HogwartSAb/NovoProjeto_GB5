@@ -41,7 +41,7 @@ namespace Princiapal
                             Q.cor = Console.ReadLine();
                             Console.Write("Tamanho dos lados: ");
                             Q.lado = double.Parse(Console.ReadLine());
-                            Lista_Figuras.Add(Q);
+                            Lista_Figura.Add(Q);
                             break;
                         case 2:
                             T = new Triangulo();
