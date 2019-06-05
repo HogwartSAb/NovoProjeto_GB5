@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Princiapal
+namespace principal
 {
     abstract class Figura
     {
         private string nome;
         private string cor;
-
-        Figura() { }
 
         public string Nome
         {

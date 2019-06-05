@@ -15,7 +15,7 @@ namespace principal
                 Circulo C = null;
                 Quadrado Q = null;
                 Triangulo T = null;
-                List<figura> formasgeo = new List<figura>();
+                List<Figura> formasgeo = new List<Figura>();
                 int op;
 
                 do
@@ -41,7 +41,7 @@ namespace principal
                             Q.cor = Console.ReadLine();
                             Console.Write("Tamanho dos lados: ");
                             Q.lado = double.Parse(Console.ReadLine());
-                            Lista_Figuras.Add(Q);
+                            Lista_Figura.Add(Q);
                             break;
                         case 2:
                             T = new Triangulo();
