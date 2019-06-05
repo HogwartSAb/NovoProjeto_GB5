@@ -14,7 +14,7 @@ namespace ProjetoFigura
 
         override public double Area()
         {
-            return (lado * lado);
+            return (lado *lado);
         }
     }
 }
