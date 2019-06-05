@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace principal
+namespace Princiapal
 {
     class Quadrado : Figura
     {
@@ -14,7 +14,7 @@ namespace principal
 
         override public double Area()
         {
-            return (lado *lado);
+            return (lado * lado);
         }
     }
 }
