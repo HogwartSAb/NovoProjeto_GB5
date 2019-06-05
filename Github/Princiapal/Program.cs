@@ -36,44 +36,44 @@ namespace Princiapal
                         case 1:
                             Q = new Quadrado();
                             Console.Write("Nome: ");
-                            Q.nome = Console.ReadLine();
+                            Q.Nome = Console.ReadLine();
                             Console.Write("Cor: ");
-                            Q.cor = Console.ReadLine();
+                            Q.Cor = Console.ReadLine();
                             Console.Write("Tamanho dos lados: ");
-                            Q.lado = double.Parse(Console.ReadLine());
-                            Lista_Figura.Add(Q);
+                            Q.Lado = double.Parse(Console.ReadLine());
+                            formasgeo.Add(Q);
                             break;
                         case 2:
                             T = new Triangulo();
                             Console.Write("Nome: ");
-                            T.nome = Console.ReadLine();
+                            T.Nome = Console.ReadLine();
                             Console.Write("Cor: ");
-                            T.cor = Console.ReadLine();
+                            T.Cor = Console.ReadLine();
                             Console.Write("Altura: ");
-                            T.altura = double.Parse(Console.ReadLine());
+                            T.AlturaT = double.Parse(Console.ReadLine());
                             Console.Write("Base: ");
-                            T.Base = double.Parse(Console.ReadLine());
-                            Lista_Figuras.Add(T);
+                            T.BaseT = double.Parse(Console.ReadLine());
+                            formasgeo.Add(T);
                             break;
                         case 3:
                             C = new Circulo();
                             Console.Write("Nome: ");
-                            C.nome = Console.ReadLine();
+                            C.Nome = Console.ReadLine();
                             Console.Write("Cor: ");
-                            C.cor = Console.ReadLine();
+                            C.Cor = Console.ReadLine();
                             Console.Write("Raio: ");
                             C.Raio = double.Parse(Console.ReadLine());
-                            Lista_Figuras.Add(C);
+                            formasgeo.Add(C);
                             break;
                         case 4:
                             Console.Write("Nome da figura: ");
                             string nome_figura = Console.ReadLine();
                             bool achou = false;
-                            foreach (Figura f in Lista_Figuras)
+                            foreach (Figura f in formasgeo)
                             {
-                                if (f.nome == nome_figura)
+                                if (f.Nome == nome_figura)
                                 {
-                                    Console.Write("Nome: " + f.nome + " Cor: " + " Área: " + f.area().ToString("0.00"));
+                                    Console.Write("Nome: " + f.Nome + " Cor: " + " Área: " + f.Area().ToString("0.00"));
                                     achou = true;
                                     break;
                                 }
